@@ -111,7 +111,7 @@ def play_hangman():
     mistakes_made = 0
 
     # Update secret_word. Don't uncomment this line until you get to Step 8.
-    # secret_word  = get_word()
+    secret_word  = get_word()
 
     while True:
         print_hangman_image(mistakes_made)
