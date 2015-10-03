@@ -33,6 +33,7 @@ def result(pl1, pl2):
 	else:
 		print "Player 2 wins"
 
+# allows this module to be used as a library
 if __name__ == "__main__":
 	print "------- Rock, Paper, Scissors -------"
 	player1 = ask("Player1") 
